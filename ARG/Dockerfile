@@ -1,3 +1,3 @@
 ARG version
-FROM almalinux:${VERSION:-8}
+FROM almalinux:${version:-8}
 RUN echo "version is: ${version}"
