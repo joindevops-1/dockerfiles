@@ -1,3 +1,3 @@
 ARG version
 FROM almalinux:${version}
-RUN echo "version is: ${VERSION}"
+RUN echo "version is: ${version}"
